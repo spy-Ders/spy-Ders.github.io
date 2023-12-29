@@ -1,0 +1,43 @@
+.site-footer{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5px;
+    padding-top: 3.5px;
+    height: 170px;
+
+}
+.site-footer .wrapper{
+
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    gap: 70px;
+}
+
+.footer-hr{
+
+    height: 80%;
+    margin: 0px 3.5px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.left-footer{
+
+    flex: 3;
+}
+
+.right-footer{
+
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+

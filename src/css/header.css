@@ -1,0 +1,14 @@
+#header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px;
+    padding: 50px;
+    height: 100%;
+}
+
+.tab{
+
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+}
