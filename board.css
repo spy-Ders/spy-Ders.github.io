@@ -1,0 +1,56 @@
+img{
+
+    height: 15px;
+    margin: 3.5px;
+}
+
+
+.mainBoard{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5px;
+    padding-top: 3.5px;
+    height: 350px;
+    
+}
+
+.mainBoard .wrapper{
+
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35px;
+    gap: 70px;
+}
+
+
+.scoreboard-hr{
+
+    height: 80%;
+    margin: 0px 35px 35px;
+    border-style: solid;
+    border-width: 1px;
+    color: transparent;
+}
+
+.home{
+
+    flex: 3;
+}
+
+.away{
+
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.child{
+
+    margin: 3.5px;
+}
