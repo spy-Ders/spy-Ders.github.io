@@ -68,6 +68,13 @@ class Team{
     minusPoint(role= "Admin", tMinusPoint){
         
         var now= new Date();
+        if(this.tPoint<= tMinusPoint){
+
+            this.tPoint= 0;
+            console.log((now.getTime()- time.getTime())/ 1000+ "s >>> " + role + " Modify " + tMinusPoint);
+            display();
+            return;
+        }
         this.tPoint-= tMinusPoint;
         console.log((now.getTime()- time.getTime())/ 1000+ "s >>> " + role + " Modify " + tMinusPoint);
         display();
